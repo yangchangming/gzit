@@ -1,0 +1,40 @@
+<#include "macro-notifications.ftl">
+<@notifications "commented">
+<#if commentedNotifications?size != 0>
+<ul class="notification">
+    <#list commentedNotifications as notification>
+    <li class="fn-flex comment-list-item<#if notification.hasRead> read</#if>">
+        <#if "someone" != notification.commentAuthorName>
+        <a target="_blank" rel="nofollow" href="${servePath}/member/${notification.commentAuthorName}"></#if>
+            <div class="avatar" title="${notification.commentAuthorName}"
+                 style="background-image:url('${notification.commentAuthorThumbnailURL}-64.jpg?${notification.thumbnailUpdateTime?c}')"></div>
+        <#if "someone" != notification.commentAuthorName></a></#if>
+        <div class="fn-flex-1">
+            <div class="fn-flex">
+                <h2 class="fn-flex-1">
+                    <#if notification.commentArticleType == 1>
+                    <span class="icon-locked" title="${discussionLabel}"></span>
+                    <#elseif notification.commentArticleType == 2>
+                    <span class="icon-feed" title="${cityBroadcastLabel}"></span>
+                    </#if>
+                    <a rel="bookmark" href="${notification.commentSharpURL}"> ${notification.commentArticleTitle}</a>
+                </h2>
+                <span class="ft-gray fn-sub">
+                    <span class="icon-date"></span>
+                    ${notification.commentCreateTime?string('yyyy-MM-dd HH:mm')}
+                </span>
+            </div>
+
+            <div class="content-reset comment">
+                ${notification.commentContent}
+            </div>
+        </div>
+
+    </li>
+    </#list>
+</ul>
+<#else>
+${noMessageLabel}
+</#if>
+
+<@pagination url="/notifications/commented"/></@notifications>
