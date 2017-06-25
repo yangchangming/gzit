@@ -6,8 +6,7 @@
                     ${visionLabel}
             </div>
             <div>
-                <span class="ft-fade">Powered by <a href="http://b3log.org" class="ft-gray" target="_blank">B3log 开源</a> • 
-                    <a href="https://github.com/b3log/symphony" class="ft-gray" target="_blank">Sym</a>
+                <span class="ft-fade">Powered by <a href="https://github.com/b3log/symphony" class="ft-gray" target="_blank">Sym</a>
                         ${version} • ${elapsed?c}ms</span>
             </div>
     </div>

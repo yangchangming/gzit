@@ -16,4 +16,4 @@
 
    5. 执行mvn install， 拷贝target下的symphony中的所有文件至jetty/webapps/ROOT中
 
-   6. 启动jetty, java -jar start.jar
+   6. 启动jetty, java -jar start.jar jetty.port=8080

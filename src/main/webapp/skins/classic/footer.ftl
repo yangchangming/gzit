@@ -27,8 +27,7 @@
                     <span class="ft-gray">${cmtLabel}</span> ${statistic.statisticCmtCount?c}
                 </div>
                 <div class="fn-right">
-                    <span class="ft-gray">Powered by <a href="http://b3log.org" target="_blank">B3log 开源</a> • 
-                        <a href="https://github.com/b3log/symphony" target="_blank">Sym</a>
+                    <span class="ft-gray">Powered by <a href="https://github.com/b3log/symphony" target="_blank">Sym</a>
                         ${version} • ${elapsed?c}ms</span>
                 </div>
             </div>

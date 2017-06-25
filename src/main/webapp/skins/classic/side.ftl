@@ -5,21 +5,17 @@ ${ADLabel}
 </#if>
 <div class="module">
     <div class="module-header">
-        <h2>开源项目</h2>
+        <h2>值得看看</h2>
     </div>
     <div class="module-panel">
         <ul class="module-list open-source">
             <li>
-                <a target="_blank" href="https://github.com/b3log/solo"><b class="ft-red slogan">【Solo】</b></a>
-                <a class="title" target="_blank" href="https://github.com/b3log/solo">GitHub 上 Star 数最多的 Java 博客</a>
+                <a target="_blank" href="https://github.com/b3log/solo"><b class="ft-green slogan">【BigData Expo】</b></a>
+                <a class="title" target="_blank" href="http://www.bigdata-expo.org/">数博会官网</a>
             </li>
             <li>
-                <a target="_blank" href="https://github.com/b3log/wide"><b class="ft-blue slogan">【Wide】</b></a>
-                <a class="title" target="_blank" href="https://github.com/b3log/wide">Golang 黑科技之在线 IDE </a>
-            </li>
-            <li class="last">
-                <a target="_blank" href="https://github.com/b3log/symphony"> <b class="ft-green slogan">【Sym】</b></a>
-                <a class="title" target="_blank" href="https://github.com/b3log/symphony"> 黑客与画家的社区</a>
+                <a target="_blank" href="https://github.com/b3log/wide"><b class="ft-blue slogan">【GzData】</b></a>
+                <a class="title" target="_blank" href="http://www.gzdata.com.cn/">云上贵州 </a>
             </li>
         </ul>
     </div>
