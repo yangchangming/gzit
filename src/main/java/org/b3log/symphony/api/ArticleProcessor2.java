@@ -29,6 +29,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * ArticleProcessor2
+ * article api about everything
  *
  * @author changming.Y <changming.yang.ah@gmail.com>
  * @since 2016-09-24
