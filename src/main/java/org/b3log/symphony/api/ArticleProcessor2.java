@@ -165,7 +165,10 @@ public class ArticleProcessor2 {
         final String permalink = originalArticle.optString(Article.ARTICLE_PERMALINK);
 
         final JSONObject articleExisted = articleQueryService.getArticleByClientArticleId(authorId, clientArticleId);
-        final boolean toAdd = null == articleExisted;
+//        final boolean toAdd = null == articleExisted;
+
+        // is add article forever
+        final boolean toAdd = true;
 
         // article already exist in server
         if (!toAdd) {
@@ -195,7 +198,7 @@ public class ArticleProcessor2 {
         }
 
         try {
-            articleTags = "同步," + articleTags;
+//            articleTags = "同步," + articleTags;
             articleTags = Tag.formatTags(articleTags);
             article.put(Article.ARTICLE_TAGS, articleTags);
 
