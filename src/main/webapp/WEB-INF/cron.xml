@@ -52,15 +52,14 @@
         <description>Load statistic data</description>
         <schedule>every 30 minutes</schedule>
     </cron>
-    
-    <cron>
-        <url>/cron/xiaov?key=dev_key</url>
-        <description>XiaoV replies Stm.</description>
-        <schedule>every 5 seconds</schedule>
-    </cron>
+
+    <!--<cron>-->
+        <!--<url>/cron/xiaov?key=dev_key</url>-->
+        <!--<description>XiaoV replies Stm.</description>-->
+        <!--<schedule>every 5 seconds</schedule>-->
+    <!--</cron>-->
     
     <!-- Disabled on Dev environment -->
-    <!--
     <cron>
         <url>/cron/status?key=dev_key</url>
         <description>Checks running status</description>
@@ -84,5 +83,4 @@
         <description>Resets unverified users</description>
         <schedule>every 24 hours</schedule>
     </cron>
-    -->
 </cronentries>

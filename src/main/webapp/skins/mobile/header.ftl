@@ -1,8 +1,8 @@
 <div class="nav"> 
     <div class="wrapper fn-clear">
         <div class="head-fn fn-left">
-            <h1>
-                <a href="${servePath}/" style="background-image: url('${staticServePath}/images/hacpai.png')" alt="${symphonyLabel}" 
+            <h1 style="">
+                <a href="${servePath}/" style="background-image: url('${staticServePath}/images/gzit-logo.png')" alt="${symphonyLabel}"
                    title="${symphonyLabel}" width="42" class="fn-pointer"></a>
             </h1>
         </div>

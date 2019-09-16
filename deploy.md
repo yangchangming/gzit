@@ -16,4 +16,6 @@
 
    5. 执行mvn install， 拷贝target下的symphony中的所有文件至jetty/webapps/ROOT中
 
-   6. 启动jetty, java -jar start.jar jetty.port=8080
+   6. 启动jetty, java -jar start.jar jetty.port=8080 --pre=etc/jetty-logging.xml (screen)
+
+   修改头像注意的问题：不能上传png格式，否则无法读出图片，只能上传jpg格式图片。

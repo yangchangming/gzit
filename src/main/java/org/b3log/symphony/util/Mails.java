@@ -77,12 +77,12 @@ public final class Mails {
         try {
             final Map<String, Object> formData = new HashMap<String, Object>();
 
-            final LangPropsService langPropsService = Lifecycle.getBeanManager().getReference(LangPropsServiceImpl.class);
+//            final LangPropsService langPropsService = Lifecycle.getBeanManager().getReference(LangPropsServiceImpl.class);
 
             formData.put("api_user", API_USER);
             formData.put("api_key", API_KEY);
             formData.put("from", FROM);
-            formData.put("fromname", langPropsService.get("symphonyLabel"));
+//            formData.put("fromname", langPropsService.get("symphonyLabel"));
             formData.put("subject", subject);
             formData.put("template_invoke_name", templateName);
 
@@ -131,7 +131,7 @@ public final class Mails {
         vars.put("%2%", var2);
 
         final List<String> toMails = new ArrayList<String>();
-        toMails.add("845765@qq.com");
+        toMails.add("9561484@qq.com");
 
         send("测试邮件", "sym_register", toMails, vars);
     }

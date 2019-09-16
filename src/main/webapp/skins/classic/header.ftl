@@ -2,7 +2,10 @@
     <div class="wrapper fn-clear">
         <div class="head-fn fn-clear">
             <h1 class="fn-left">
-                ${logoIcon}
+                <#--${logoIcon}-->
+            <a href="${servePath}" alt="贵州IT" title="贵州IT" class="fn-pointer" style="margin-top: -6px;">
+                   <img src="/images/gzit-logo.png" />
+            </a>
             </h1>
             <#if esEnabled || algoliaEnabled>
             <form class="responsive-hide fn-left" target="_blank" action="/search">
