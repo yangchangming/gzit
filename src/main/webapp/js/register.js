@@ -103,7 +103,7 @@ var Register = {
                 data: JSON.stringify(requestJSONObject),
                 success: function (result, textStatus) {
                     if (result.sc) {
-                        window.location.href = "http://www.gzit.info/article/1470550602232";
+                        window.location.href = "http://www.vns.ink/article/1470550602232";
                     } else {
                         $("#registerTip").addClass('error').removeClass('succ').html('<ul><li>' + result.msg + '</li></ul>');
                     }

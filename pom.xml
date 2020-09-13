@@ -8,21 +8,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.b3log</groupId>
-    <artifactId>symphony</artifactId>
+    <groupId>com.datavens</groupId>
+    <artifactId>vns-ink</artifactId>
     <packaging>war</packaging>
     <version>1.4.0</version>
-    <name>Symphony</name>
-    <url>https://github.com/b3log/symphony</url>
-    <description>
-        Sym Community: https://hacpai.com/about
-    </description>
-    <inceptionYear>2012</inceptionYear>
+    <name>vns</name>
+    <url>http://vns.ink</url>
+    <description>Vns 社区</description>
+    <inceptionYear>2020</inceptionYear>
 
-    <!-- Properties -->
     <properties>
         <latke.version>2.2.10</latke.version>
-        
         <servlet.version>3.1.0</servlet.version>
         <jetty.version>9.2.7.v20150116</jetty.version>
         <slf4j.version>1.7.7</slf4j.version>
@@ -46,66 +42,6 @@
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <organization>
-        <name>B3log</name>
-        <url>http://b3log.org</url>
-    </organization>
-
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <id>DL88250@gmail.com</id>
-            <name>Liang Ding</name>
-            <email>DL88250@gmail.com</email>
-            <url>http://88250.b3log.org</url>
-            <roles>
-                <role>Lead</role>
-                <role>Initial Committer</role>
-            </roles>
-            <organization>B3log</organization>
-            <organizationUrl>http://b3log.org</organizationUrl>
-            <timezone>+8</timezone>
-        </developer>
-
-        <developer>
-            <id>LLY219@gmail.com</id>
-            <name>Liyuan Li</name>
-            <email>LLY219@gmail.com</email>
-            <url>http://vanessa.b3log.org</url>
-            <roles>
-                <role>Committer</role>
-            </roles>
-            <organization>B3log</organization>
-            <organizationUrl>http://b3log.org</organizationUrl>
-            <timezone>+8</timezone>
-        </developer>
-        
-        <developer>
-            <id>wmainlove@gmail.com</id>
-            <name>Liceng Yao</name>
-            <email>wmainlove@gmail.com</email>
-            <url>http://love.b3log.org</url>
-            <roles>
-                <role>Committer</role>
-            </roles>
-            <organization>B3log</organization>
-            <organizationUrl>http://b3log.org</organizationUrl>
-            <timezone>+8</timezone>
-        </developer>
-        
-    </developers>
-
-    <issueManagement>
-        <system>GitHub Issues</system>
-        <url>https://github.com/b3log/symphony/issues</url>
-    </issueManagement>
 
     <scm>
         <url>https://github.com/b3log/symphony</url>
@@ -267,8 +203,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -339,8 +275,8 @@
                     </mapping>
                     <useDefaultMapping>true</useDefaultMapping>
                     <properties>
-                        <year>2012-2016</year>
-                        <devTeam>b3log.org &amp; hacpai.com</devTeam>
+                        <year>2020</year>
+                        <devTeam>vns.ink</devTeam>
                     </properties>
                     <encoding>UTF-8</encoding>
                 </configuration>
@@ -357,8 +293,6 @@
                 </executions>
             </plugin>
         </plugins>
-
-        <finalName>symphony</finalName>
     </build>
     
     <repositories>

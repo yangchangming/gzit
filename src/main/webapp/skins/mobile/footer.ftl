@@ -2,7 +2,7 @@
     <div class="wrapper">
             <div class="footer-nav">
                     <span class="ft-fade">&COPY; ${year}</span>
-                    <a rel="copyright" href="http://gzit.info" target="_blank">gzit.info</a>
+                    <a rel="copyright" href="http://vns.ink" target="_blank">vns.ink</a>
                     ${visionLabel}
             </div>
             <div>

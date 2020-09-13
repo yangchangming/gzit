@@ -8,7 +8,7 @@
     </head>
     <body>
         <script>
-            location.href = "http://www.gzit.info/article/1470550602232"
+            location.href = "http://www.vns.ink/article/1470550602232"
         </script>
     </body>
 </html>
