@@ -3,13 +3,13 @@
         <div class="head-fn fn-clear">
             <h1 class="fn-left">
                 <#--${logoIcon}-->
-            <a href="${servePath}" alt="贵州IT" title="贵州IT" class="fn-pointer" style="margin-top: -6px;">
+            <a href="${servePath}" alt="Venus社区" title="Venus社区" class="fn-pointer" style="margin-top: -6px;">
                    <img src="/images/gzit-logo.png" />
             </a>
             </h1>
             <#if esEnabled || algoliaEnabled>
             <form class="responsive-hide fn-left" target="_blank" action="/search">
-                <input class="search" placeholder="Search GZIT" type="text" name="key" id="search" value="<#if key??>${key}</#if>" >
+                <input class="search" placeholder="Search Venus" type="text" name="key" id="search" value="<#if key??>${key}</#if>" >
                 <input type="submit" class="fn-none" value=""/>
             </form>
             </#if>

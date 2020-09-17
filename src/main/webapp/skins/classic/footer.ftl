@@ -28,7 +28,7 @@
                 </div>
                 <div class="fn-right">
                     <span class="ft-gray">Powered by <a href="https://github.com/b3log/symphony" target="_blank">Sym</a>
-                        ${version} • ${elapsed?c}ms</span>
+                        ${version} • ${elapsed?c}ms <a href="https://beian.miit.gov.cn" target="_blank">黔ICP备18004359号</a></span>
                 </div>
             </div>
         </div>
