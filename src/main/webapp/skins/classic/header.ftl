@@ -4,7 +4,7 @@
             <h1 class="fn-left">
                 <#--${logoIcon}-->
             <a href="${servePath}" alt="Venus社区" title="Venus社区" class="fn-pointer" style="margin-top: -6px;">
-                   <img src="/images/gzit-logo.png" />
+                   <img src="/images/Venus40x32.png" />
             </a>
             </h1>
             <#if esEnabled || algoliaEnabled>
