@@ -2,7 +2,7 @@
 
 ## 概要
 
-   基于开源社区symphony的本地IT社区
+   基于开源社区symphony的本地GuiZhou IT社区(gzit.info)
 
 ## 说明
 
@@ -14,9 +14,9 @@
 
    4. init中修改管理员email，admin.email=neocode@126.com
 
-   5. 执行mvn install， 拷贝target下的symphony中的所有文件至jetty/webapps/ROOT中
+   5. 执行mvn clean package， 拷贝target下的vns-ink-1.4.0.war文件至jetty/webapps/中，重命名为root.war
 
-   6. 启动jetty, java -jar start.jar jetty.port=8080 --pre=etc/jetty-logging.xml (screen)
+   6. 后台启动服务, nohup java -jar start.jar &
 
    修改头像注意的问题：不能上传png格式，否则无法读出图片，只能上传jpg格式图片。
 
