@@ -2,7 +2,7 @@
 
 ## 概要
 
-   基于开源社区symphony的本地IT社区，部署在digetalocean中
+   基于开源社区symphony的本地IT社区
 
 ## 说明
 
@@ -19,3 +19,7 @@
    6. 启动jetty, java -jar start.jar jetty.port=8080 --pre=etc/jetty-logging.xml (screen)
 
    修改头像注意的问题：不能上传png格式，否则无法读出图片，只能上传jpg格式图片。
+
+   websocket配置，只要配置nginx就可以了
+   
+   
