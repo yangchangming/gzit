@@ -13,7 +13,7 @@
 
                 <div class="fn-right">
                     <span class="ft-gray">&COPY; ${year}</span>
-                    <a rel="copyright" href="http://vns.ink" target="_blank">vns.ink</a>
+                    <a rel="copyright" href="http://gzit.info" target="_blank">gzit.info</a>
                     ${visionLabel}</div>
             </div>
             <div class="fn-clear">

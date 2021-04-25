@@ -9,13 +9,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.datavens</groupId>
-    <artifactId>vns-ink</artifactId>
+    <artifactId>gzit</artifactId>
     <packaging>war</packaging>
     <version>1.4.0</version>
-    <name>vns</name>
-    <url>http://vns.ink</url>
-    <description>Vns 社区</description>
-    <inceptionYear>2020</inceptionYear>
+    <name>gzit</name>
+    <url>http://gzit.info</url>
+    <description>贵州IT社区</description>
+    <inceptionYear>2021</inceptionYear>
 
     <properties>
         <latke.version>2.2.10</latke.version>
@@ -276,7 +276,7 @@
                     <useDefaultMapping>true</useDefaultMapping>
                     <properties>
                         <year>2020</year>
-                        <devTeam>vns.ink</devTeam>
+                        <devTeam>gzit.info</devTeam>
                     </properties>
                     <encoding>UTF-8</encoding>
                 </configuration>

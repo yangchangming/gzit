@@ -99,7 +99,7 @@ public class ArticleProcessor2 {
      *         "articleTitle": "test"
      *     },
      *     "clientAdminEmail": "neocode@126.com",
-     *     "clientHost": "http://www.vns.ink",
+     *     "clientHost": "http://www.gzit.info",
      *     "clientName": "第三方应用",
      *     "clientRuntimeEnv": "NIGHT",
      *     "clientVersion": "0.1",
